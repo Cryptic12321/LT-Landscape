@@ -162,7 +162,17 @@ section[id] {
 
 /* Junk removal page hero background */
 .hero-junk {
-    background-image: url("images/LT Junk removal.png");
+    background-image: url("images/LT junk removal.png");
+}
+
+/* Make junk removal hero show the photo more clearly */
+.hero-junk::after {
+    background: none;
+    opacity: 0;
+}
+
+.hero-junk .hero-overlay {
+    background: rgba(0, 0, 0, 0.35);
 }
 
 .hero::after {
