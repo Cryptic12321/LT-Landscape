@@ -27,6 +27,8 @@ A modern, responsive website for LT Landscape - a professional landscaping busin
 1. Open `index.html` in a web browser
 2. No build process or dependencies required - it's a pure HTML/CSS/JavaScript website
 
+If you host this project on GitHub Pages, the published site will be served directly from the files in this repository.
+
 ## Customization
 
 ### Colors
