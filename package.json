@@ -1,0 +1,8 @@
+{
+  "name": "lt-landscape",
+  "private": true,
+  "description": "Static HTML/CSS/JS site — no real build step",
+  "scripts": {
+    "build": "echo Static site ready"
+  }
+}
