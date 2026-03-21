@@ -55,7 +55,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Contact Form Handling (Netlify: only block submit if validation fails; otherwise form POSTs to Netlify)
+// Contact Form Handling (Formsubmit: only block submit if validation fails; otherwise form POSTs to Formsubmit)
 const contactForm = document.getElementById('contactForm');
 
 if (contactForm) {
@@ -82,7 +82,7 @@ if (contactForm) {
             return;
         }
 
-        // Valid — let the form submit to Netlify so you see it under Site → Forms
+        // Valid — let the form submit to Formsubmit (you receive email at lt.landscape@yahoo.com)
     });
 }
 

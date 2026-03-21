@@ -222,8 +222,11 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form" id="contactForm" name="contact" method="POST" data-netlify="true" action="/thank-you.html">
-                    <input type="hidden" name="form-name" value="contact">
+                <!-- Formsubmit.co: works on GitHub Pages (no Netlify). Submissions go to your email. -->
+                <form class="contact-form" id="contactForm" name="contact" method="POST" action="https://formsubmit.co/lt.landscape@yahoo.com">
+                    <input type="hidden" name="_next" value="https://cryptic12321.github.io/LT-Landscape/thank-you.html">
+                    <input type="hidden" name="_subject" value="LT Landscape - Website contact">
+                    <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
                     <div class="form-group">
                         <input type="text" id="name" name="name" placeholder="Your Name" required>
                     </div>
