@@ -222,11 +222,11 @@
                         </div>
                     </div>
                 </div>
-                <!-- Web3Forms: free, works on GitHub Pages. Replace access_key once (see README). No customer confirmation. -->
-                <form class="contact-form" id="contactForm" name="contact" method="POST" action="https://api.web3forms.com/submit">
-                    <input type="hidden" name="access_key" value="PASTE_WEB3FORMS_ACCESS_KEY_HERE">
-                    <input type="hidden" name="redirect" value="https://cryptic12321.github.io/LT-Landscape/thank-you.html">
-                    <input type="hidden" name="subject" value="LT Landscape - Website contact">
+                <!-- Formsubmit: no API key needed. First time only: check lt.landscape@yahoo.com for Formsubmit activation link. -->
+                <form class="contact-form" id="contactForm" name="contact" method="POST" action="https://formsubmit.co/lt.landscape@yahoo.com">
+                    <input type="hidden" name="_next" value="https://cryptic12321.github.io/LT-Landscape/thank-you.html">
+                    <input type="hidden" name="_subject" value="LT Landscape - Website contact">
+                    <input type="hidden" name="_captcha" value="false">
                     <div class="form-group">
                         <input type="text" id="name" name="name" placeholder="Your Name" required>
                     </div>

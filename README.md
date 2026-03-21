@@ -29,17 +29,9 @@ A modern, responsive website for LT Landscape - a professional landscaping busin
 
 If you host this project on GitHub Pages, the published site will be served directly from the files in this repository.
 
-### Contact form (Web3Forms — no confirmation for visitors)
+### Contact form (Formsubmit)
 
-The form uses **[Web3Forms](https://web3forms.com)** (free). Messages are emailed to the address you register — **customers do not need to confirm anything.**
-
-1. Go to **https://web3forms.com** → **Get Started** (free).
-2. Enter your email and complete the one-time signup.
-3. Copy your **Access Key**.
-4. In **`index.html`** and **`junk-removal.html`**, find `PASTE_WEB3FORMS_ACCESS_KEY_HERE` and replace it with your key (same key in both files).
-5. Save, commit, and push to GitHub.
-
-**Note:** *Formsubmit.co* only required **you** (the owner) to confirm your email **once** — visitors never had to confirm. If you prefer Formsubmit, you can change the `<form>` back to Formsubmit; after that first owner activation, messages also arrive automatically.
+The form uses **[Formsubmit.co](https://formsubmit.co)** (free). **Visitors never need to confirm anything.** The first time someone submits, check **lt.landscape@yahoo.com** for a **one-time** email from Formsubmit to activate that address — after you click the link, future submissions arrive automatically.
 
 ## Customization
 
