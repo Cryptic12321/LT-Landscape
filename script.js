@@ -55,7 +55,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Contact Form Handling (Formsubmit: only block submit if validation fails; otherwise form POSTs to Formsubmit)
+// Contact Form Handling (Web3Forms: only block submit if validation fails; otherwise form POSTs to Web3Forms)
 const contactForm = document.getElementById('contactForm');
 
 if (contactForm) {
@@ -82,7 +82,7 @@ if (contactForm) {
             return;
         }
 
-        // Valid — let the form submit to Formsubmit (you receive email at lt.landscape@yahoo.com)
+        // Valid — let the form submit to Web3Forms (emails go to the address you used when creating the access key)
     });
 }
 
